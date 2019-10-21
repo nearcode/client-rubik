@@ -76,8 +76,7 @@ if (process.env.NODE_ENV == 'development') {
 	protocol =  window.location.protocol;
 	// domain = getMainHost();
 	protocol = 'https:';
-	// domain = '99ex.co';
-	domain = 'renbi.io';
+	domain = 'xx.com';
 	
 	if (document.domain != "localhost" && document.domain != "127.0.0.1") {
         domain = getMainHost();

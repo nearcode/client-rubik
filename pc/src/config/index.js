@@ -42,7 +42,6 @@ if (process.env.NODE_ENV == 'development') {
     //正式
     var protocol = window.location.protocol;
     var domain = getMainHost();
-    // var domain = "mai.bi";
 
     //保护措施，不能修改，本地测试不影响
     if (document.domain != "localhost" && document.domain != "127.0.0.1") {
@@ -61,14 +60,6 @@ if (process.env.NODE_ENV == 'development') {
 
 let mainSite= false;
 let isRenBi = false;
-// 是否主站MAIBI
-if(document.domain.indexOf('mai.bi') !=-1){
-    mainSite=true;
-}
-// 是否是人币网
-if(document.domain.indexOf('renbi.io') !=-1){
-    isRenBi=true;
-}
 
 module.exports = {
     baseUrl,

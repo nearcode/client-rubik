@@ -65,7 +65,6 @@ if (process.env.NODE_ENV == 'development') {
     //正式
     var protocol = window.location.protocol;
     let domain = getMainHost();
-    // let domain = "mai.bi";
     var adminUrl = protocol+`//adminapi.${domain}/api/v1`;
     var payUrl = protocol+`//payapi.${domain}/api/v1`;
     var baseUrl = protocol+`//baseapi.${domain}/api/v1`;
