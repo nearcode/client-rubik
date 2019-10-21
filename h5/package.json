@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "clipboard": "^2.0.4",
+    "vue-i18n": "^8.11.2"
+  },
+  "name": "exapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@code.aliyun.com:rubik/exapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less-loader": "^5.0.0"
+  }
+}

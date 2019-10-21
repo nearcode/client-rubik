@@ -1,0 +1,13 @@
+.page_games {
+  @import "./games.scss";
+  background-image: linear-gradient(90deg, #20b2aa 0%, #506ab4 100%);
+  //   background-image: linear-gradient(to bottom right, #041160, #780105);
+  .font_red {
+    color: $text-red !important;
+  }
+  .font_green {
+    color: $text-green !important;
+  }
+
+  
+}

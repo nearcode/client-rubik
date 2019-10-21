@@ -1,0 +1,13 @@
+{
+	"newVer": "1.0.9",
+	"auto":true,
+	"android": {
+		"type":"wgt",
+		"url": "https://datares.oss-cn-shanghai.aliyuncs.com/bipay/bipay.wgt"
+	},
+	"ios": {
+		"type":"wgt",
+		"url": "https://datares.oss-cn-shanghai.aliyuncs.com/bipay/bipay.wgt"
+	},
+	"note":["点击确认后，自动安装最新版本APP","点击确认后，请在新窗口下载指定版本的APP"]
+}

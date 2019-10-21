@@ -1,0 +1,269 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/loading/loading",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/market/market",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/wallet/addCoin",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/wallet/withdraw",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/exchange/exchange",
+			"style": {
+			}
+		}, {
+			"path": "pages/exchange/chart/chart",
+			"style": {
+			}
+		}, {
+			"path": "pages/wallet/transfer",
+			"style": {
+			}
+		}, {
+			"path": "pages/wallet/selectCoin",
+			"style": {
+			}
+		}, {
+			"path": "pages/user/userCA",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/market/searchCoin",
+			"style": {
+			}
+		}, {
+			"path": "pages/user/safetyCenter/safetyCenter",
+			"style": {
+			}
+		}, {
+			"path": "pages/user/aboutUs/aboutUs",
+			"style": {
+			}
+		}, {
+			"path": "pages/user/setUp/setUp",
+			"style": {
+			}
+		}, {
+			"path": "pages/user/setUp/language",
+			"style": {
+			}
+		}, {
+			"path": "pages/user/setUp/valuation",
+			"style": {
+			}
+		}, {
+			"path": "pages/wallet/index",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/user/safetyCenter/setMobile/setMobile",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+			}
+		}, {
+			"path": "pages/login/forgetPW/forgetPW",
+			"style": {
+			}
+		}, {
+			"path": "pages/login/register/setPw",
+			"style": {
+			}
+		}, {
+			"path": "pages/login/forgetPW/resetPw",
+			"style": {
+			}
+		}, {
+			"path": "pages/login/register/register",
+			"style": {
+			}
+		}, {
+			"path": "pages/wallet/moneyHistory/index",
+			"style": {
+			}
+		}, {
+			"path": "pages/wallet/moneyHistory/detail",
+			"style": {
+			}
+		}, {
+			"path": "pages/login/register/selectArea",
+			"style": {
+			}
+		}, {
+			"path": "pages/index/news/news",
+			"style": {
+			}
+		}, {
+			"path": "pages/wallet/history",
+			"style": {
+			}
+		}, {
+			"path": "pages/C2C/C2C",
+			"style": {
+			}
+		}, {
+			"path": "pages/C2C/transactionReaord",
+			"style": {
+			}
+		}, {
+			"path": "pages/C2C/transactionDetail",
+			"style": {
+			}
+		}, {
+			"path": "pages/C2CManage/C2CManage",
+			"style": {
+			}
+		}, {
+			"path": "pages/C2CManage/seeDetail/seeDetail",
+			"style": {}
+		}, {
+			"path": "pages/user/bankCard/index",
+			"style": {
+			}
+		}, {
+			"path": "pages/user/bankCard/addCard",
+			"style": {
+			}
+		}, {
+			"path": "pages/user/invitation/invitation",
+			"style": {
+			}
+		}, {
+			"path": "pages/user/bankCard/choseBank",
+			"style": {
+			}
+		}, {
+			"path": "pages/user/safetyCenter/setEmail/setEmail",
+			"style": {
+			}
+		}, {
+			"path": "pages/user/safetyCenter/setGoogle/setGoogle",
+			"style": {
+			}
+		}, {
+			"path": "pages/article/article",
+			"style": {}
+		}, {
+			"path": "pages/user/shareApp/shareApp",
+			"style": {
+			}
+		}, {
+			"path": "pages/user/orderManage/index",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/index/news/list",
+			"style": {
+			}
+		},{
+			"path": "pages/user/shareApp/install_guide",
+			"style": {
+			}
+		}, {
+			"path": "pages/C2C/notice",
+			"style": {
+			}
+		}
+	    ,{
+            "path" : "pages/market/test/test",
+            "style" : {}
+        },{
+            "path" : "pages/user/safetyCenter/setEmail/bindEmail",
+            "style" : {}
+        },
+		{
+		    "path" : "pages/user/safetyCenter/setEmail/getEmailCode",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/user/lock/index",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/user/lock/lockUser",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/user/lock/unlock",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/user/lock/addLockUser",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/user/lock/updateLock",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/user/shareApp/sinUpQrcode",
+		    "style" : {}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom" //不显示顶部导航
+	},
+	"tabBar": {
+		"color": "#c6cfd6",
+		"selectedColor": "#1883d5",
+		"list": [{
+				"selectedIconPath": "./static/image/tabBar/index1.png",
+				"iconPath": "./static/image/tabBar/index2.png",
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"selectedIconPath": "./static/image/tabBar/market1.png",
+				"iconPath": "./static/image/tabBar/market2.png",
+				"pagePath": "pages/market/market",
+				"text": "行情"
+			},
+			{
+				"selectedIconPath": "./static/image/tabBar/exchange1.png",
+				"iconPath": "./static/image/tabBar/exchange2.png",
+				"pagePath": "pages/exchange/exchange",
+				"text": "交易"
+			},
+			{
+				"selectedIconPath": "./static/image/tabBar/C2C1.png",
+				"iconPath": "./static/image/tabBar/C2C2.png",
+				"pagePath": "pages/C2C/C2C",
+				"text": "C2C"
+			},
+			{
+				"selectedIconPath": "./static/image/tabBar/wallet1.png",
+				"iconPath": "./static/image/tabBar/wallet2.png",
+				"pagePath": "pages/wallet/index",
+				"text": "钱包"
+			}
+		]
+	}
+}

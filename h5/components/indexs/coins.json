@@ -1,0 +1,132 @@
+{
+	"BJBANK": {
+		"group": "B",
+		"code": "BJBANK",
+		"name": "bst"
+	},
+	"BOHAIB": {
+		"group": "B",
+		"code": "BOHAIB",
+		"name": "bst"
+	},
+	"CCB": {
+		"group": "J",
+		"code": "CCB",
+		"name": "jsd"
+	},
+	"DLB": {
+		"group": "D",
+		"code": "DLB",
+		"name": "d"
+	},
+	"CMB": {
+		"group": "Z",
+		"code": "CMB",
+		"name": "zdd"
+	},
+	"SHBANK": {
+		"group": "S",
+		"code": "SHBANK",
+		"name": "sss"
+	},
+	"SPABANK": {
+		"group": "P",
+		"code": "SPABANK",
+		"name": "ppp"
+	},
+	"CMBC": {
+		"group": "M",
+		"code": "CMBC",
+		"name": "m"
+	},
+	"PSBC": {
+		"group": "Y",
+		"code": "PSBC",
+		"name": "ys"
+	},
+	"ORBANK": {
+		"group": "E",
+		"code": "ORBANK",
+		"name": "e"
+	},
+	"NBBANK": {
+		"group": "N",
+		"code": "NBBANK",
+		"name": "ns"
+	},
+	"ICBC": {
+		"group": "G",
+		"code": "ICBC",
+		"name": "g"
+	},
+	"ABC": {
+		"group": "N",
+		"code": "ABC",
+		"name": "n"
+	},
+	"HXBANK": {
+		"group": "H",
+		"code": "HXBANK",
+		"name": "h"
+	},
+	"BOC": {
+		"group": "Z",
+		"code": "BOC",
+		"name": "zzz"
+	},
+	"COMM": {
+		"group": "J",
+		"code": "COMM",
+		"name": "jss"
+	},
+	"SPDB": {
+		"group": "P",
+		"code": "SPDB",
+		"name": "psd"
+	},
+	"CIB": {
+		"group": "X",
+		"code": "CIB",
+		"name": "xxx"
+	},
+	"CITIC": {
+		"group": "Z",
+		"code": "CITIC",
+		"name": "zzz"
+	},
+	"shenzhen_bank": {
+		"group": "S",
+		"code": "shenzhen_bank",
+		"name": "sz"
+	},
+	"HZCB": {
+		"group": "H",
+		"code": "HZCB",
+		"name": "hz"
+	},
+	"NJCB": {
+		"group": "H",
+		"code": "NJCB",
+		"name": "hh"
+	},
+	"CEB": {
+		"group": "G",
+		"code": "CEB",
+		"name": "gg"
+	},
+	"HUISHANG": {
+		"group": "W",
+		"code": "HUISHANG",
+		"name": "ww"
+	},
+	"SHRCB": {
+		"group": "S",
+		"code": "SHRCB",
+		"name": "ss"
+	},
+	"OTHER": {
+		"group": "W",
+		"code": "OTHER",
+		"name": "www"
+	}
+}

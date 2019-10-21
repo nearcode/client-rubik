@@ -1,0 +1,203 @@
+<template>
+	<view class="dataContent">
+		<view class="dataHead solid-bottom">
+			<view class="explain clearfix">
+				<text>名称</text>
+			</view>
+			<view class="explain clearfix">
+				<text class="explainMid">最新价</text>
+			</view>
+			<view class="explain clearfix">
+				<text class="explainRight">涨跌幅</text>
+			</view>
+		</view>
+		<view class="dataListWrap">
+			<!-- <view v-if="orderTickers.length>0" class="dataList flex justify-between align-center solid-bottom" @click="tabMarket(item.market)"
+			 v-for="(item,indexs) in orderTickers" :key="indexs"> -->
+			<list class="scroll-v list" enableBackToTop="true" scroll-y offset-accuracy="300" loadmoreoffset="300" @loadmore="loadMore">
+				<cell v-if="orderTickers.length>0" v-for="(item,indexs) in orderTickers" :key="indexs">
+					<view class="dataList flex justify-between align-center solid-bottom" @click="tabMarket(item.market)">
+						<view class="dataMid  flex flex-direction justify-center align-center">
+							<view class="dataMidUp flex justify-between align-center margin-bottom-xs">
+								<view class="dataMidLeft">
+									<text class="dataName text-bold font-color text-df">
+										{{item.market_coin}}
+									</text>
+									<text class="font-grey text-xs">/{{item.market_base}}</text>
+								</view>
+								<text class="dataGain font-color text-bold">{{item.last}}</text>
+							</view>
+							<view class="dataMidUp flex justify-between align-center text-sm">
+								<view class="dataMidLeft">
+									<text class="dataNo text-grey">24H量 {{item.baseVol}}</text>
+								</view>
+								<text class="dataGain dataPrice font-gray">&yen;{{item.toCNY}}</text>
+							</view>
+						</view>
+						<view class="dataRight flex justify-center align-center">
+							<text class="dataRText text-white text-df" :class="item.change<=0?'back-red':'back-green'">{{item.change}}%</text>
+						</view>
+					</view>
+				</cell>
+				<cell class="loading-more" v-if="isLoading || orderTickers.length > 4">
+					<text class="loading-more-text">{{tab.loadingText}}</text>
+				</cell>
+			</list>
+			<!-- </view> -->
+		</view>
+		<view v-if="orderTickers.length <= 0 " style="text-align: center; line-height:160upx;font-size:30upx;">
+			{{this.activeName == 'optional'?"没有自选数据":'没有数据'}}
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		props: ['orderTickers', 'activeName'],
+		data() {
+			return {
+				loadingText: '加载中...',
+				loadingValue:'',
+				isLoading:false,
+			};
+		},
+		computed: {
+			// isLoading() {
+			// 	return ;
+			// }
+		},
+		methods: {
+			//进入
+			tabMarket(pair) {
+				console.log(pair);
+				this.activeMarket = pair;
+				uni.setStorageSync("currentMarket", pair);
+				uni.reLaunch({
+					url: "/pages/exchange/exchange"
+				})
+			},
+			loadMore() {
+				console.log('111')
+				// this.isLoading = true;
+				// setTimeout(() => {
+				// 	let len = this.orderTickers.length;
+				// 	if(len>=40){
+				// 		uni.showToast({title:'没有更多了',icon:'none'});
+				// 		this.isLoading = false;
+				// 		return false;
+				// 	}else{
+				// 		this.loadingText="正在加载...";
+				// 	}
+				// 	let tmpList = JSON.parse(JSON.stringify(this.orderTickers));
+				// 	let end_goods_id = this.orderTickers[len-1].goods_id;
+				// 	for(let i=1;i<=10;i++){
+				// 		let row = tmpList[i-1];
+				// 		row.goods_id = end_goods_id+i;
+				// 		this.orderTickers.push(row);
+				// 	}
+				// 	console.log(this.orderTickers);
+				// 	this.isLoading = false;
+				// }, 1000);
+			},
+		}
+	}
+</script>
+
+<style scoped>
+	.list{
+		position: fixed;
+		top: 88px;
+		bottom: 1px;
+		left: 0;
+		right: 0;
+	}
+	.dataContent {
+		width: 100%;
+	}
+	.dataHead {
+		margin: 0 auto;
+		display: flex;
+		padding-left: 26.04upx;
+		padding-right: 26.04upx;
+	}
+
+	.explain {
+		width: 235upx;
+		height: 67.7upx;
+		line-height: 67.7upx;
+		color: #C6CFD6;
+	}
+
+	.explainMid {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+
+	.explainRight {
+		display: block;
+		float: right;
+	}
+
+
+	.dataListWrap {
+		width: 705upx;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.dataList {
+		width: 100%;
+		margin: 0 auto;
+		height: 104.16upx;
+	}
+
+	.dataMid {
+		width: 500upx;
+		height: 60upx;
+		margin-right: 41.66upx;
+	}
+
+	.dataMidUp {
+		width: 100%;
+		text-indent: 10upx;
+	}
+
+	.dataMidLeft {
+		width: 53%;
+		height: 100%;
+	}
+
+	.dataName {
+		font-size: 25upx;
+	}
+
+	.dataNo {
+		width: 100%;
+		display: block;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+
+	.dataGain {
+		width: 46%;
+		display: block;
+		text-align: right;
+	}
+
+	.dataPrice {
+		font-size: 26upx;
+		letter-spacing: 1upx;
+	}
+
+	.dataRText {
+		border-radius: 2.08upx;
+		width: 145.83upx;
+		height: 60upx;
+		display: block;
+		line-height: 60upx;
+		text-align: center;
+	}
+</style>

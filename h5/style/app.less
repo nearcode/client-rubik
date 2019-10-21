@@ -1,0 +1,246 @@
+/* ==================
+          全局
+ ==================== */
+body{
+	// font-family:"PingFang SC Bold","Arial Bold","Microsoft YaHei",arial,"\5b8b\4f53", sans-serif, tahoma;
+}
+
+a{
+	text-decoration:none;
+	color:#01a0ed;
+}
+/* ==================
+          布局
+ ==================== */
+// .page{
+// 	height: 100vh;
+// }
+
+/* 页面公共高度 */
+
+/*  #ifdef  MP-WEIXIN  */
+@topheight:var(--status-bar-height);
+.page{
+	min-height:calc(~"100vh - @{topheight}");
+}
+/*  #endif  */
+
+/*  #ifdef  H5  */
+ @topheight:var(--window-top);
+ @bottomheight:var(--window-bottom);
+.page{
+	min-height:calc(~"100vh - @{topheight} - @{bottomheight}");
+}
+/*  #endif  */
+
+ /*  #ifdef  APP-PLUS  */
+.page{
+	min-height: 100vh;
+}
+ /*  #endif  */
+ 
+.width100{
+	width:100%;
+}
+.layouts{//充币，提币,身份认证
+	// padding-top:30upx;
+	padding-bottom:30upx;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.nodatas {//没有数据
+	font-size: 100upx;
+}
+/* ==================
+          头部文字
+ ==================== */
+.head-title{
+	width: 100%;
+	margin-top:39.06upx;
+	margin-bottom:72.91upx;
+	color:#25435b;
+}
+/* ==================
+          按钮
+ ==================== */
+.submit{
+	margin-top:85upx;
+	button {
+		background-color: #0073d0!important;
+		height: 100upx!important;
+	}
+	button[disabled]:not([type]),
+	button[disabled][type=default] {
+		background-color: #d0d9de!important;
+		color:#FFFFFF!important;
+	}
+}
+
+ 
+/* ==================
+          字体颜色
+ ==================== */
+
+.font-color{
+	color:#1F3F58;
+}
+
+.font-green{
+	color:#03C086;
+}
+
+.font-gray{
+	color:#8E9EAB;
+}
+
+.font-grey{
+	color:#C6CFD6;
+}
+
+.bg-color{
+	background-color:#1883d5;
+}
+.font-col{
+	color:#25435b;
+}
+.placeholder-col{
+	color:#c6cfd6
+}
+
+.inputplaceholder,
+.textareaplaceholder {
+		color: #c6cfd6;
+}
+.inpl-grey{
+		color:#8C9FAE;
+}
+.inpl-gray{
+		color:#a0a0a0;
+}
+	
+/* ==================
+          背景颜色
+ ==================== */
+.back-green{
+  background-color:#03C086!important;
+  color:#FFFFFF;
+}
+
+.back-red{
+	background-color:#d14b64!important;
+	color:#FFFFFF;
+}
+ /* ==================
+           表单
+  ==================== */
+
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+input[type="number"],
+input[type="password"],
+button[type="submit"],
+button[type="button"],
+button[type="reset"] {
+    -moz-appearance: none;
+    -o-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    border: 0;
+	border-width:0;
+}
+
+form{
+	p.lables{
+	}
+	.form-group{
+		border-color:#e2e2e2;
+	}
+	.inputwrap{
+		width:100%;
+	}
+}
+
+form.wallet-form{
+	.groups{/*同在一行,例如转账页面*/
+		width:100%;
+		margin-top: 30upx;
+		border-bottom: 0.5px solid rgba(208, 217, 222, 0.52);
+		padding-bottom: 10upx;
+		margin-bottom: 50upx;
+		.label{
+			width:30%;
+		}
+		.group{
+			border-bottom:0 none;
+			margin-bottom:0upx;
+			margin-top: 0upx;
+			padding-bottom: 0upx;
+		}
+	}
+	
+	.label{
+		color:#25435b!important;
+		font-size:32upx;
+	}
+	.group{
+		width:100%;
+		margin-top: 30upx;
+		border-bottom: 0.5px solid rgba(208, 217, 222, 0.52);
+		padding-bottom: 10upx;
+		margin-bottom: 50upx;
+		position: relative;
+		input{
+			width:100%;
+			color: #25435b;
+			font-size:32upx;
+		}
+		.icon-attentionforbidfill,.icon-roundclosefill{
+			color: #c6cfd6;
+			font-size:40upx;
+		}
+		.icon-attentionfill{
+			font-size:40upx;
+		}
+	}
+	
+	text[class*="icon"]{
+		font-size:40upx;
+	}
+	
+	/*触发时候的*/
+	// input/deep/:focus{
+	//    border-bottom:0.5px solid #0073d0;
+	// }
+}
+ /* ==================
+           组件
+  ==================== */
+#msgUniPopup {
+		//消息提示
+	.uni-popup {
+			height: auto !important;
+			text-align: left !important;
+			line-height: 30upx !important;
+			padding: 30upx;
+			background-color:rgba(243, 123, 29, 0.93);
+			color: #FFFFFF;
+			margin-top: var(--status-bar-height);
+	}
+}
+
+#msgUniPopupSucc{
+	//消息提示
+	.uni-popup {
+			height: auto !important;
+			text-align: left !important;
+			line-height: 30upx !important;
+			padding: 30upx;
+			//background-color: rgba(0, 0, 0, 0.49);
+			background-color:rgb(33, 84, 129);
+			color: #FFFFFF;
+			margin-top: var(--status-bar-height);
+	}
+}

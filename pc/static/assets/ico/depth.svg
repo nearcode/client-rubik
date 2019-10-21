@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>分组 30</title>
+    <desc>Created with Sketch.</desc>
+    <g id="交易页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="杠杆交易--爆仓" transform="translate(-1333.000000, -903.000000)" fill-rule="nonzero">
+            <g id="盘口" transform="translate(1314.000000, 46.000000)">
+                <g id="深度" transform="translate(0.000000, 845.000000)">
+                    <g id="分组-32-copy" transform="translate(16.000000, 9.000000)">
+                        <g id="分组-31" transform="translate(3.000000, 3.000000)">
+                            <g id="分组-30">
+                                <g id="Group-89" transform="translate(6.000000, 2.500000) scale(1, -1) translate(-6.000000, -2.500000) " fill="#EE4444">
+                                    <g id="Group-88">
+                                        <path d="M0,1 L0,0 L12,0 L12,1 L0,1 Z M3,4 L3,3 L12,3 L12,4 L3,4 Z M0,0 L1,0 L1,4.5 L0,4.5 L0,0 Z" id="Combined-Shape"></path>
+                                    </g>
+                                </g>
+                                <g id="Group-89-Copy" transform="translate(0.000000, 7.000000)" fill="#1B9680">
+                                    <g id="Group-88">
+                                        <path d="M0,1 L0,0 L12,0 L12,1 L0,1 Z M3,4 L3,3 L12,3 L12,4 L3,4 Z M0,0 L1,0 L1,4.5 L0,4.5 L0,0 Z" id="Combined-Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

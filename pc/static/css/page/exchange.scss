@@ -1,0 +1,66 @@
+.exchange {
+  .depth-main {
+    background-color: $--color-white;
+    .depth-head {
+      background-color: $background-color-light;
+      // border-bottom: 1px solid $--border-color-light;
+    }
+    .trade_dataTitle{
+      color: $mainTextColor;
+    }
+    // 经过深度列表
+    .myapp-plain-table ul li:hover {
+      background-color:  $background-color-base-hover;
+    }
+  }
+  // 最新价格
+  .news_price {
+    border-bottom: 1px solid $--border-color-lighter;
+    border-top: 1px solid $--border-color-lighter;
+  }
+  .exchange-orders {
+    background-color: $--color-white;
+  }
+  .trade-form {
+    background-color: $--color-white;
+  }
+  // 交易头部行情
+  .exchange-ticker {
+    background-color: $background-color-light;
+    dt.select-market > span {
+      border-right: 1px solid $--border-color-light;
+    }
+    dd>span{
+      color: $--color-info;
+    }
+    // border-bottom: 1px solid $--border-color-light;
+  }
+  .trade_main {
+    .last-price-main {
+      background-color: $--color-white;
+    }
+  }
+  // 最新成交
+  .dealHistory {
+    .title {
+      background-color: $background-color-light;
+    }
+    // border-bottom: 1px solid $--border-color-light;
+  }
+
+  // 交易表单
+  .trade_form:first-child:after {
+    border-right: 1px $--border-color-light dashed;
+  }
+  // 交易k线
+  .k_line {
+    background-color: $--color-white;
+  }
+  // 行情选中状态
+  .el-table__body tr.current-row>td{
+    background-color: $--border-color-lighter;
+  }
+  .font-gray{
+    color: $--color-info;
+  }
+}

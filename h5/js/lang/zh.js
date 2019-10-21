@@ -1,0 +1,83 @@
+module.exports = {
+	user: {
+		announcement: '公告',
+		userCenter: '用户中心',
+		langSetting: '语言设置',
+		securityCenter: '安全中心',
+		versionUpdates: '版本更新',
+		monetaryUnitSetting: '货币单位设置',
+		currencySet: '币种设置',
+		aboutUs: '关于我们',
+		share: '分享我们',
+		loginRegister: '登录/注册',
+		logout: '注销登入'
+	},
+	footer: {
+		home: '首页',
+		news: '新闻',
+		market: '行情',
+		deal: '交易',
+		wallet: '钱包',
+		c2c: 'C2C'
+	},
+	market: {
+		currency: '币种',
+		price: '价格',
+		increase: '涨幅',
+		"LIMIT_TRADE_BTC": "最少交易0.001BTC",
+		"LIMIT_TRADE_C2C": "最少交易70元",
+		"LIMIT_TRADE_ETH": "最少交易0.01ETH",
+		"LIMIT_TRADE_USDT": "最少交易10USDT",
+		"LIMIT_TRADE": "禁止小额订单"
+	},
+	wallet: {
+		myWallet: '我的钱包',
+		toLogin: '登入操作钱包',
+		noLogin: '你还没有登入哦~'
+	},
+	login: {
+		login: '登入',
+		"ACCOUNT_HAS_BEEN_DISABLED": "账号被禁止",
+		"DISABLE_LOGIN": "禁止登录",
+		"TOO_MANY_INCORRECT_LOGIN_PASSWORD": "登录密码错误次数太多，请十分钟后再试",
+		"GOOGLE_AUTHENTICATION_CODE_ERROR": "Google 验证码错误",
+		"USER_DOES_NOT_EXIST": "用户不存在",
+		"ACCOUNT_OR_PASSWORD_IS_INCORRECT": "账号或者密码错误",
+		"PLEASE_RE-VERIFY": "请重新验证"
+	},
+	c2c: {
+		"PLEASE_VERIFY_YOUR_REALNAME": "请先实名认证"
+	},
+	"USER_NAME_TAKEN": "用户名已被使用",
+	"MOBILE_EXISTS": "手机号已存在",
+	"EMAIL_EXISTS": "邮箱已存在",
+	"CODE_HAS_SEND": "验证码已发送请注意查收",
+	"THE_PASSWORD_MUST_NOT_BE_LESS_THAN_8_BITS": "密码不能小于8位",
+	"PARAMETER_ERROR": "不符合规范",
+	"VERIFICATION_CODE_ERROR": "验证码错误",
+	"INVALID_EMAIL": "无效的邮箱地址",
+	"EMAIL_TAKEN": "邮箱已被使用",
+	"MOBILE_TAKEN": "手机号已被使用",
+	"INVALID_SMS_CODE": "验证码错误",
+	"INVALID_NUMBER": "无效的手机号码",
+	"INVALID_CAPTCHA": "错误的验证码",
+	"ACCOUNT_ERROR": "账号错误",
+	"PLEASE_LOGIN_AGAIN":"请先登陆",
+	"WRONG_PASSWORD":"原密码错误",
+	"PROHIBIT_INTERNAL_TRANSFERS": "禁止内部转账",
+	"PROHIBIT_OPERATION":"禁止操作",
+	"PROHIBIT_WITHDRAWAL":"禁止提现",
+	"USER_DOES_NOT_EXIST": "用户不存在",
+	"BALANCE_NOT_ENOUGH": "余额不足",
+	"PLEASE_VERIFY_YOUR_REALNAME": "请先实名认证",
+	"PLEASE_SELECT_YOUR_WITHDRAW_ADDRESS": "请选择您的提现地址",
+	"PLEASE_LOGIN_AGAIN":"请重新登陆",
+	"CODE_OR_PASSWORD_INVALID":"验证码或密码无效",
+	"DATA_ERROR": "数据错误",
+	"OPERATION_TOO_FAST": "操作太快，请过会在试",
+	"AMOUNT_ERROR":"数量错误",
+	"TOO_MANY_PASSWORD_ERROR": "原登录密码错误次数太多",
+	"USERNAME_TAKEN":"用户名已存在",
+	"Internal Server Error":"网络出错",
+	// "invalid memory address or nil pointer dereference":"对方ID不存在"
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title></title>
+		<!-- uni 的 SDK，必须引用。 -->
+		<script type="text/javascript" src="//js.cdn.aliyun.dcloud.net.cn/dev/uni-app/uni.webview.0.1.52.js"></script>
+	</head>
+	<body>
+		21321321321321321
+	</body>
+	<script type="text/javascript">
+		document.addEventListener('UniAppJSBridgeReady', function() {
+			uni.getEnv(function(res) {
+				console.log('当前环境：' + JSON.stringify(res));
+			});
+		});
+	</script>
+</html>

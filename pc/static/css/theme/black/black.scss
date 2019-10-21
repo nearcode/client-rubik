@@ -1,0 +1,78 @@
+/* Element Chalk Variables */
+  $themeColor:#243046;// 基础背景色 body|html
+  $background-color-light:#161e31;
+  $mainTextColor: #61688a;//默认body文字颜色
+  $background-color-base-hover:#202a40;//经过列表或表格的背景色
+  $background-color-mask:rgba(25, 33, 54, 0.9);
+  
+  // #161e31
+  
+/* Transition
+-------------------------- */
+$--all-transition: all .3s cubic-bezier(.645,.045,.355,1) !default;
+$--fade-transition: opacity 300ms cubic-bezier(0.23, 1, 0.32, 1) !default;
+$--fade-linear-transition: opacity 200ms linear !default;
+$--md-fade-transition: transform 300ms cubic-bezier(0.23, 1, 0.32, 1), opacity 300ms cubic-bezier(0.23, 1, 0.32, 1) !default;
+$--border-transition-base: border-color .2s cubic-bezier(.645,.045,.355,1) !default;
+$--color-transition-base: color .2s cubic-bezier(.645,.045,.355,1) !default;
+
+/* Color
+-------------------------- */
+/// color|1|Brand Color|0|主题色
+$--color-primary: #357ce1 !default;
+/// color|1|Background Color|4|基础白色
+$--color-white: #192136 !default;
+/// color|1|Background Color|4|基础黑色
+$--color-black: #192136 !default;
+$--shadow-base: #192136 !default;
+$--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; /* 53a8ff */
+$--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default; /* 66b1ff */
+$--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default; /* 79bbff */
+$--color-primary-light-4: mix($--color-white, $--color-primary, 40%) !default; /* 8cc5ff */
+$--color-primary-light-5: mix($--color-white, $--color-primary, 50%) !default; /* a0cfff */
+$--color-primary-light-6: mix($--color-white, $--color-primary, 60%) !default; /* b3d8ff */
+$--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default; /* c6e2ff */
+$--color-primary-light-8: mix($--color-white, $--color-primary, 80%) !default; /* d9ecff */
+$--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default; /* ecf5ff */
+/// color|1|Functional Color|1|成功颜色
+$--color-success: #67C23A !default;
+/// color|1|Functional Color|1|警告颜色
+$--color-warning: #E6A23C !default;
+/// color|1|Functional Color|1|危险颜色
+$--color-danger: #F56C6C !default;
+/// color|1|Functional Color|1|信息颜色
+$--color-info: $mainTextColor !default;
+
+$--color-success-light: mix($--color-white, $--color-success, 80%) !default;
+$--color-warning-light: mix($--color-white, $--color-warning, 80%) !default;
+$--color-danger-light: mix($--color-white, $--color-danger, 80%) !default;
+$--color-info-light: mix($--color-white, $--color-info, 80%) !default;
+
+$--color-success-lighter: mix($--color-white, $--color-success, 90%) !default;
+$--color-warning-lighter: mix($--color-white, $--color-warning, 90%) !default;
+$--color-danger-lighter: mix($--color-white, $--color-danger, 90%) !default;
+$--color-info-lighter: mix($--color-white, $--color-info, 90%) !default;
+/// color|1|Font Color|2|主要文字颜色
+$--color-text-primary: #b0b8db !default;
+/// color|1|Font Color|2|常规文字颜色
+$--color-text-regular: #839fbe !default;
+/// color|1|Font Color|2|次要文字颜色
+$--color-text-secondary: #687da6 !default;
+/// color|1|Font Color|2|占位文字颜色
+$--color-text-placeholder: #839fbe !default;
+/// color|1|Border Color|3|一级边框颜色
+$--border-color-base: #31405F !default;
+/// color|1|Border Color|3|二级边框颜色
+$--border-color-light: #31405F !default;
+/// color|1|Border Color|3|三级边框颜色
+$--border-color-lighter: #31405F !default;
+/// color|1|Border Color|3|四级边框颜色
+$--border-color-extra-light: #31405F !default;
+
+// Background
+/// color|1|Background Color|4|基础背景色|info|以及table经过的颜色
+$--background-color-base: #161E31 !default;
+
+// 主要用于法币交易的订单信息
+$border-color-yellow:$--border-color-lighter;
+$background-color-yellow:$--background-color-base;

@@ -1,0 +1,8 @@
+
+body.white{
+    @import './white.scss';
+    @import "../element/index.scss";
+    @import "../../page/index.scss";
+    background-color: $themeColor;
+    color: $mainTextColor;
+}

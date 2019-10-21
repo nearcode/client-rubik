@@ -1,0 +1,35 @@
+/* 头部 */
+.overflowWrap-PWdgT-U_-,.layout__area--top{
+    height:26px !important;
+}
+/* k线 */
+.layout__area--center{
+    top: 26px!important;
+    height: calc(100% - 26px) !important;
+}
+/* 顶部按钮块 */
+.wrap-3tiHesTk-{
+    height:26px !important;
+}
+/* 占位隐藏 */
+.fill-2axUON87-{
+    border: none !important;
+    display: none !important;
+}
+/* 按钮内边距 */
+.content-3_f7yH29- .wrap-18oKCBRc- .customButton--jqJTfH5-{
+	padding:0 5px!important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
+.toolbar-2n2cwgp5-{
+    padding: 0 !important;
+}
+.group-wWM3zP_M-{
+    min-width: auto!important;
+}

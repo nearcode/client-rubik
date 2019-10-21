@@ -1,0 +1,14 @@
+.otc_trade {
+  .table-bordered tr {
+    td {
+      border: 1px solid $border-color-yellow;
+    }
+    .td_left {
+      background-color: $background-color-yellow;
+      border-color: $border-color-yellow;
+    }
+    .td_right {
+      border-color: $border-color-yellow;
+    }
+  }
+}

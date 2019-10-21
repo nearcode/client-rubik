@@ -1,0 +1,91 @@
+<template>
+  <div>
+    <list :class="['main-list']" offset-accuracy="300" loadmoreoffset="300">
+      <!-- <refresh class="loading" @refresh="onrefresh" :display="refreshing ? 'show' : 'hide'">
+        <wxc-part-loading :show="isShow"></wxc-part-loading>
+        <text class="indicator-text">正在刷新数据...</text>
+      </refresh> -->
+     <div v-for="(num,index) in lists" :key="index">
+        <div class="panel">
+          <text class="text">{{num}}</text>
+        </div>
+      </div>
+      <loading class="loading" @loading="onloading" :display="loadinging ? 'show' : 'hide'">
+        <!-- <wxc-part-loading :show="isShow"></wxc-part-loading> -->
+        <text class="indicator-text">正在加载中...</text>
+      </loading>
+    </list>
+  </div>
+</template>
+<script>
+export default {
+  name: "announcement",
+  components: { },
+  data() {
+    return {
+      isShow: true,
+      refreshing: false,
+      loadinging: false,
+      lists: [1, 2, 3, 4, 5]
+    };
+  },
+  methods: {
+    onrefresh(event) {
+      this.refreshing = true;
+      setTimeout(() => {
+        this.lists = [1, 2, 3, 4, 5];
+        this.refreshing = false;
+      }, 2000);
+    },
+    onloading(event) {
+  
+      this.loadinging = true;
+      setTimeout(() => {
+        this.loadinging = false;
+        const length = this.lists.length;
+        for (let i = length; i < length + 10; i++) {
+          this.lists.push(i + 1);
+        }
+      }, 2000);
+    }
+  }
+};
+</script>
+<style scoped>
+.main-list {
+  position: fixed;
+  top: 88px;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+}
+.loading {
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.indicator-text {
+  color: #52a3d8;
+  font-size: 24px;
+  text-align: center;
+}
+
+.panel {
+  width:200upx;
+  height: 250upx;
+  margin-left: 75px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  flex-direction: column;
+  justify-content: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #dddddd;
+  background-color: #ffffff;
+}
+.text {
+  font-size: 50px;
+  text-align: center;
+  color: #41b883;
+}
+</style>

@@ -1,0 +1,158 @@
+html.theme-dark .js-rootresizer__contents{
+	background: #161e31 !important;
+}
+html.theme-dark body{
+    background: #161e31;
+}
+
+html.theme-dark .chart-container{
+	height: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+html.theme-dark .chart-widget{
+	height: 100% !important;
+}
+
+.chart-widget table{
+	height:100% !important;
+}
+html.theme-dark .chart-markup-table{
+    background-color: #192136!important;
+}
+html.theme-dark .chart-markup-table canvas{
+	width: 100% !important;
+	height: 100% !important;
+}
+
+/* .layout__area--center{
+	top:20px !important;
+	height: calc(100% - 30px) !important;
+} */
+
+/* .layout__area--top{
+	height:20px !important;
+}
+
+.overflowWrap-PWdgT-U_-{
+	height: 20px !important;
+}
+
+.wrap-3tiHesTk-{
+	height:20px !important;
+} */
+
+/* .chart-page{
+	background: none !important;
+} */
+/* html .chart-page [class*="customButton--"].selected {
+    background-color: #1c2030
+} */
+.icon-beK_KS0k- svg {
+    fill: #6983B0 !important;
+    color: #6983B0 !important;
+}
+
+html.theme-dark .content-3_f7yH29- .group-wWM3zP_M- {
+    background: #192136 !important;
+    color: #6983B0 !important;
+    cursor: pointer;
+    border-radius: 0 !important;
+    margin-left: 0 !important;
+    /* border-right: 1px solid #141A2A; */
+}
+html.theme-dark .chart-container {
+    border: none !important;
+    width: 100% !important;
+    background-color: #192136 !important;
+}
+
+/* 工具栏背底色 */
+html.theme-dark .group-2JyOhh7Z-{
+    background-color: #192136 !important;
+}
+
+
+
+.content-3_f7yH29- .wrap-18oKCBRc-{
+	color: inherit;
+}
+
+.content-3_f7yH29- .wrap-18oKCBRc- .customButton--jqJTfH5-{
+	color: inherit;
+}
+
+.content-3_f7yH29- .wrap-18oKCBRc- span{
+	color: inherit;
+    font-size: 12px !important;
+}
+
+
+
+.content-3_f7yH29- .customButton--jqJTfH5-:hover {
+    color: #409EFF !important;
+    border: none !important;
+}
+
+.content-3_f7yH29- .button::before {
+    border: none !important;
+}
+
+.content-3_f7yH29- .textColor {
+    color: #409EFF !important;
+    font-size: 12px !important;
+}
+
+.content-3_f7yH29- .textColor:hover {
+    border: none !important;
+    color: #409EFF;
+}
+
+.chart-markup-table .pane {
+    /*	padding: 20px 0 0 0 !important;*/
+    box-sizing: border-box;
+}
+.chart-page .chart-container-border{
+    background-color: transparent!important;
+}
+
+.header-group-fullscreen {
+    float: right;
+    margin-right: 12px !important;
+    height: 20px;
+    padding: 0;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*.ui-draggable{
+    overflow: auto !important;
+    height: auto !important;
+}*/
+
+/*画图工具隐藏箭头*/
+.container-3_8ayT2Q- .background-Q1Fcmxly-{
+	fill: none !important;
+	stroke: #6983B0 !important;
+}
+/* 画图栏横线 */
+.inner-1xuW-gY4-{
+	background-color: #6983B0 !important;
+}
+
+html.theme-dark .content-3_f7yH29-{
+    background-color: #192136 !important;
+}
+/* 按钮选中状态 */
+html.theme-dark .content-3_f7yH29- .group-wWM3zP_M-.tradingview-active{
+    background-color: #31405F!important;
+    color: #409EFF !important;
+}
+.button-263WXsg-- .icon-1Y-3MM9F-{
+    color: inherit;
+}
+.button-263WXsg--:hover .icon-1Y-3MM9F-{
+    color: #839fbe!important;
+}

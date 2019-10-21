@@ -1,0 +1,132 @@
+{
+  "BJBANK": {
+    "group": "B",
+    "code": "BJBANK",
+    "name": "北京银行"
+  },
+  "BOHAIB": {
+    "group": "B",
+    "code": "BOHAIB",
+    "name": "渤海银行"
+  },
+  "CCB": {
+    "group": "J",
+    "code": "CCB",
+    "name": "建设银行"
+  },
+  "DLB": {
+    "group": "D",
+    "code": "DLB",
+    "name": "大连银行"
+  },
+  "CMB": {
+    "group": "Z",
+    "code": "CMB",
+    "name": "招商银行"
+  },
+  "SHBANK": {
+    "group": "S",
+    "code": "SHBANK",
+    "name": "上海银行"
+  },
+  "SPABANK": {
+    "group": "P",
+    "code": "SPABANK",
+    "name": "平安银行"
+  },
+  "CMBC": {
+    "group": "M",
+    "code": "CMBC",
+    "name": "民生银行"
+  },
+  "PSBC": {
+    "group": "Y",
+    "code": "PSBC",
+    "name": "邮政储需银行"
+  },
+  "ORBANK": {
+    "group": "E",
+    "code": "ORBANK",
+    "name": "鄂尔多斯银行"
+  },
+  "NBBANK": {
+    "group": "N",
+    "code": "NBBANK",
+    "name": "宁波银行"
+  },
+  "ICBC": {
+    "group": "G",
+    "code": "ICBC",
+    "name": "工商银行"
+  },
+  "ABC": {
+    "group": "N",
+    "code": "ABC",
+    "name": "农业银行"
+  },
+  "HXBANK": {
+    "group": "H",
+    "code": "HXBANK",
+    "name": "华夏银行"
+  },
+  "BOC": {
+    "group": "Z",
+    "code": "BOC",
+    "name": "中国银行"
+  },
+  "COMM": {
+    "group": "J",
+    "code": "COMM",
+    "name": "交通银行"
+  },
+  "SPDB": {
+    "group": "P",
+    "code": "SPDB",
+    "name": "浦发银行"
+  },
+  "CIB": {
+    "group": "X",
+    "code": "CIB",
+    "name": "兴业银行"
+  },
+  "CITIC": {
+    "group": "Z",
+    "code": "CITIC",
+    "name": "中信银行"
+  },
+  "shenzhen_bank": {
+    "group": "S",
+    "code": "shenzhen_bank",
+    "name": "深圳银行"
+  },
+  "HZCB": {
+    "group": "H",
+    "code": "HZCB",
+    "name": "杭州银行"
+  },
+  "NJCB": {
+    "group": "H",
+    "code": "NJCB",
+    "name": "南京银行"
+  },
+  "CEB": {
+    "group": "G",
+    "code": "CEB",
+    "name": "光大银行"
+  },
+  "HUISHANG": {
+    "group": "W",
+    "code": "HUISHANG",
+    "name": "微商银行"
+  },
+  "SHRCB": {
+    "group": "S",
+    "code": "SHRCB",
+    "name": "上海农商银行"
+  },
+  "OTHER": {
+    "group": "W",
+    "code": "OTHER",
+    "name": "未知银行"
+  }
+}

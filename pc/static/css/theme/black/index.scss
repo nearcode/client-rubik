@@ -1,0 +1,11 @@
+body.black{  
+    @import "./black.scss";
+    @import "../element/index.scss";
+    @import "../../page/index.scss";
+    
+    background-color:$themeColor;
+    color: $--color-text-placeholder;
+}
+// html{
+//     @extend body.black
+// }

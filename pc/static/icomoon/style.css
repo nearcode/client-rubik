@@ -1,0 +1,228 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./icomoon.eot?jayap6');
+  src:  url('./icomoon.eot?jayap6#iefix') format('embedded-opentype'),
+    url('./icomoon.ttf?jayap6') format('truetype'),
+    url('./icomoon.woff?jayap6') format('woff'),
+    url('./icomoon.svg?jayap6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-verified2 .path1:before {
+  content: "\e900";
+  color: rgb(255, 188, 6);
+}
+.icon-verified2 .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-verified .path1:before {
+  content: "\e902";
+  color: rgb(45, 189, 131);
+}
+.icon-verified .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-qq:before {
+  content: "\e601";
+}
+.icon-BEECHAT:before {
+  content: "\e618";
+}
+.icon-weibo:before {
+  content: "\e643";
+}
+.icon-facebook:before {
+  content: "\e645";
+}
+.icon-telegram:before {
+  content: "\e648";
+}
+.icon-email:before {
+  content: "\e649";
+}
+.icon-twitter:before {
+  content: "\e652";
+}
+.icon-qqgroup:before {
+  content: "\e67b";
+}
+.icon-weixin:before {
+  content: "\e70b";
+}
+.icon-theme:before {
+  content: "\e904";
+}
+.icon-light:before {
+  content: "\e905";
+}
+.icon-dark:before {
+  content: "\e906";
+}
+.icon-no-data:before {
+  content: "\e907";
+}
+.icon-star:before {
+  content: "\f005";
+}
+.icon-star_empty:before {
+  content: "\f006";
+}
+.icon-user:before {
+  content: "\f007";
+}
+.icon-cog:before {
+  content: "\f013";
+}
+.icon-trash:before {
+  content: "\f014";
+}
+.icon-home:before {
+  content: "\f015";
+}
+.icon-download_alt:before {
+  content: "\f019";
+}
+.icon-lock:before {
+  content: "\f023";
+}
+.icon-qrcode:before {
+  content: "\f029";
+}
+.icon-tag:before {
+  content: "\f02b";
+}
+.icon-tags:before {
+  content: "\f02c";
+}
+.icon-book:before {
+  content: "\f02d";
+}
+.icon-eye_open:before {
+  content: "\f06e";
+}
+.icon-eye_close:before {
+  content: "\f070";
+}
+.icon-warning_sign:before {
+  content: "\f071";
+}
+.icon-bar_chart:before {
+  content: "\f080";
+}
+.icon-cogs:before {
+  content: "\f085";
+}
+.icon-comments:before {
+  content: "\f086";
+}
+.icon-signout:before {
+  content: "\f08b";
+}
+.icon-external-link:before {
+  content: "\f08e";
+}
+.icon-credit-card:before {
+  content: "\f09d";
+}
+.icon-group:before {
+  content: "\f0c0";
+}
+.icon-link:before {
+  content: "\f0c1";
+}
+.icon-paper-clip:before {
+  content: "\f0c6";
+}
+.icon-undo:before {
+  content: "\f0e2";
+}
+.icon-paste:before {
+  content: "\f0ea";
+}
+.icon-shield:before {
+  content: "\f132";
+}
+.icon-html5:before {
+  content: "\f13b";
+}
+.icon-css3:before {
+  content: "\f13c";
+}
+.icon-btc:before {
+  content: "\f15a";
+}
+.icon-_334:before {
+  content: "\f164";
+}
+.icon-_335:before {
+  content: "\f165";
+}
+.icon-long_arrow_down:before {
+  content: "\f175";
+}
+.icon-long_arrow_up:before {
+  content: "\f176";
+}
+.icon-apple:before {
+  content: "\f179";
+}
+.icon-windows:before {
+  content: "\f17a";
+}
+.icon-android:before {
+  content: "\f17b";
+}
+.icon-database:before {
+  content: "\f1c0";
+}
+.icon-uniF1E0:before {
+  content: "\f1e0";
+}
+.icon-wifi:before {
+  content: "\f1eb";
+}
+.icon-_462:before {
+  content: "\f1ec";
+}
+.icon-area-chart:before {
+  content: "\f1fe";
+}
+.icon-_480:before {
+  content: "\f200";
+}
+.icon-line-chart:before {
+  content: "\f201";
+}
+.icon-doubt:before {
+  content: "\f29c";
+}
+.icon-address-card:before {
+  content: "\f2bb";
+}
+.icon-uniF2BC:before {
+  content: "\f2bc";
+}
+.icon-uniF2C0:before {
+  content: "\f2c0";
+}

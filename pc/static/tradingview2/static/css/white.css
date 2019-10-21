@@ -1,0 +1,149 @@
+html.theme-light .js-rootresizer__contents{
+	background: #fff !important;
+}
+html.theme-light body{
+    background: #fff;
+}
+html.theme-light .chart-container{
+	height: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+html.theme-light .chart-widget{
+	height: 100% !important;
+}
+
+html.theme-light .chart-widget table{
+	height:100% !important;
+}
+html.theme-light .chart-markup-table{
+    background-color: #fff !important;
+}
+html.theme-light .chart-markup-table canvas{
+	width: 100% !important;
+	height: 100% !important;
+}
+
+/* .layout__area--center{
+	top:20px !important;
+	height: calc(100% - 30px) !important;
+} */
+
+/* .layout__area--top{
+	height:20px !important;
+}
+
+.overflowWrap-PWdgT-U_-{
+	height: 20px !important;
+}
+
+.wrap-3tiHesTk-{
+	height:20px !important;
+} */
+
+.chart-page{
+	background: none !important;
+}
+
+.icon-beK_KS0k- svg {
+    fill: #6983B0 !important;
+    color: #6983B0 !important;
+}
+
+html.theme-light .content-3_f7yH29- .group-wWM3zP_M- {
+    background: #fff !important;
+    color: #9ca9b5 !important;
+    cursor: pointer;
+    border-radius: 0 !important;
+    margin-left: 0 !important;
+    /* border-right: 1px solid #e6ecf2; */
+}
+
+html.theme-light .chart-container {
+    border: none !important;
+    width: 100% !important;
+    background-color: #fff !important;
+}
+
+/* 工具栏背景色 */
+html.theme-light .group-2JyOhh7Z-{
+    background-color: #fbfbfb !important;
+}
+
+.content-3_f7yH29- .wrap-18oKCBRc-{
+	color: inherit;
+}
+
+.content-3_f7yH29- .wrap-18oKCBRc- .customButton--jqJTfH5-{
+	color: inherit;
+}
+
+.content-3_f7yH29- .wrap-18oKCBRc- span{
+	color: inherit;
+    font-size: 12px !important;
+}
+
+
+.content-3_f7yH29- .customButton--jqJTfH5-:hover {
+    color: #409EFF !important;
+    border: none !important;
+}
+
+.content-3_f7yH29- .button::before {
+    border: none !important;
+}
+
+.content-3_f7yH29- .textColor {
+    color: #409EFF !important;
+    font-size: 12px !important;
+}
+
+.content-3_f7yH29- .textColor:hover {
+    border: none !important;
+    color: #409EFF;
+}
+
+.chart-markup-table .pane {
+    /*	padding: 20px 0 0 0 !important;*/
+    box-sizing: border-box;
+}
+.chart-page .chart-container-border{
+    background-color: transparent;
+}
+
+.header-group-fullscreen {
+    float: right;
+    margin-right: 12px !important;
+    height: 20px;
+    padding: 0;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*.ui-draggable{
+    overflow: auto !important;
+    height: auto !important;
+}*/
+
+/*画图工具隐藏箭头*/
+.container-3_8ayT2Q- .background-Q1Fcmxly-{
+	fill: none !important;
+	stroke: #6983B0 !important;
+}
+/* 画图栏横线 */
+.inner-1xuW-gY4-{
+	background-color: #6983B0 !important;
+}
+
+/* 头部按钮块 */
+html.theme-light .content-3_f7yH29-{
+    background-color: #fff !important;
+}
+
+/* 按钮选中状态 */
+html.theme-light .content-3_f7yH29- .group-wWM3zP_M-.tradingview-active{
+    background-color: #F2F3F8!important;
+    color: #409EFF !important;
+}
